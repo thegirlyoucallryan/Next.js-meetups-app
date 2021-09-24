@@ -27,6 +27,7 @@ function NewMeetups(){
             <Head>
             <title>Add a New Meetup</title>
             <meta
+            http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"
             name="description"
             content="Add your memories here!"
             />

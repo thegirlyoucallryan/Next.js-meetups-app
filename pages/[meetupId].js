@@ -11,6 +11,7 @@ function MeetupDetails(props){
       <Head>
         <title>{props.meetupData.title}</title>
         <meta
+        http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"
         name="description"
         content={props.meetupData.description}
         />

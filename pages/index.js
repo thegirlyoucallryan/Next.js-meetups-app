@@ -12,6 +12,7 @@ function HomePage(props) {
         <Head>
             <title> Next.js Meetups</title>
             <meta
+            http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"
             name="description"
             content="An app for creating a list of travel adventures and precious memories!"
             />
